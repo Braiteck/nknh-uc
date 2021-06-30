@@ -332,6 +332,22 @@
 
 
 
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photogallery .row
+    {
+        margin-left: 0;
+    }
+
+    .photogallery .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

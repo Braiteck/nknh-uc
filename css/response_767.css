@@ -418,6 +418,24 @@
 
 
 
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photogallery .row
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .photogallery .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
