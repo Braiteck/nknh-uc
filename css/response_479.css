@@ -341,4 +341,8 @@
     /*-----------
         PopUp
     -----------*/
+    .fancybox-slide--html
+    {
+        padding: 16px;
+    }
 }

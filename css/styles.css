@@ -2382,6 +2382,56 @@ aside .menu .sub_links a.active
 }
 
 
+.form .file
+{
+    padding-top: 5px;
+}
+
+.form .file input
+{
+    display: none;
+}
+
+.form .file label
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+
+    display: flex;
+
+    cursor: pointer;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.form .file label .icon
+{
+    display: block;
+
+    width: 13px;
+    min-width: 13px;
+    height: 12px;
+    margin-right: 6px;
+
+    fill: currentColor;
+}
+
+.form .file label span
+{
+    display: block;
+    overflow: hidden;
+
+    width: 100%;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
 .form .submit
 {
     display: flex;
@@ -2408,6 +2458,58 @@ aside .menu .sub_links a.active
     vertical-align: top;
 
     background: #006cab;
+}
+
+
+.form .agree
+{
+    color: #898989;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.form .agree a
+{
+    color: currentColor;
+
+    transition: color .2s linear;
+}
+
+.form .agree a:hover
+{
+    color: var(--text_color);
+}
+
+
+.form .bottom
+{
+    display: flex;
+
+    padding-top: 8px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.form .bottom .submit
+{
+    width: 180px;
+    max-width: 100%;
+    padding: 0;
+}
+
+.form .bottom .submit .submit_btn
+{
+    width: 100%;
+}
+
+.form .bottom .agree
+{
+    width: 400px;
+    max-width: calc(100% - 219px);
+    margin-left: 30px;
 }
 
 
@@ -4241,4 +4343,33 @@ footer .copyright
     padding: 43px 0 45px;
 
     border-top: 1px solid #e6e6e6;
+}
+
+
+
+/*-----------
+    PopUp
+-----------*/
+.modal
+{
+    display: none;
+    visibility: visible !important;
+
+    width: 580px;
+    max-width: 100%;
+    padding: 52px;
+
+    background: #fff;
+}
+
+
+.modal_title
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+
+    margin-bottom: 24px;
+
+    text-align: center;
 }

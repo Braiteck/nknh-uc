@@ -22,6 +22,11 @@ $(() => {
 	// Маска ввода
 	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
+	// Выбор файла
+	$('body').on('change', '.form input[type=file]', function (e) {
+		$(this).closest('.file').find('label span').text($(this).val())
+	})
+
 
 	// Мини всплывающие окна
 	$('.mini_modal_btn').click(function (e) {
@@ -78,6 +83,19 @@ $(() => {
 			ZOOM: "Увеличить"
 		}
 	}
+
+	// Всплывающие окна
+	$('body').on('click', '.modal_btn', function (e) {
+		e.preventDefault()
+
+		$.fancybox.close(true)
+
+		$.fancybox.open({
+			src: $(this).data('content'),
+			type: 'inline',
+			touch: false
+		})
+	})
 
 	// Увеличение картинки
 	$('.fancy_img').fancybox({

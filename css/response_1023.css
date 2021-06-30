@@ -395,4 +395,14 @@
         margin-top: 40px;
         padding: 24px 0;
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 24px;
+    }
 }
