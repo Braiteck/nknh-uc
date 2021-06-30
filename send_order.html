@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#006CAB">
+		<meta name="theme-color" content="#006CAB">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1227.css" media="print, (max-width: 1227px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="inner">
+					<div class="cont row">
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="menu_wrap">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="item">
+									<a href="/">История</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Деятельность</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Контакты</a>
+								</div>
+
+								<div class="item">
+									<a class="active">Подать заявку на оказание услуг</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">Rus</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="mob_header inner">
+					<div class="cont">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_menu">
+					<button class="close"></button>
+
+					<div class="scroll">
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">Rus</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Новости</a>
+							</div>
+
+							<div class="item">
+								<a href="/">История</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Деятельность</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Контакты</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+							<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+							<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+							<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+							<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Подать завку на оказание услуг</span>
+						</div>
+
+						<h1 class="page_title">Подать заявку на обучение работников ПАО «Нижнекамскнефтехим»</h1>
+					</div>
+				</section>
+
+
+				<section class="send_order block">
+					<div class="cont">
+						<div class="text_block">
+							<p><span>Учебный центр по подготовке персонала ПАО «Нижнекамскнефтехим» не оказывает образовательные услуги другим компаниям.</span> В свою очередь, рассматривает коммерческие предложения образовательных организаций РФ и РТ по обучению работников компании по различным направлениям, в том числе подконтрольных Ростехнадзору и другим подведомственным службам. В этом разделе Вы можете оставить свое коммерческое предложение на оказание образовательных услуг.</p>
+						</div>
+
+						<div class="list">
+							<div class="item">
+								<div class="title">Организация образовательного процесса</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Менеджмент в сфере образования; подготовка инструкторов-наставников, мастеров производственного обучения; обучение ораторскому искусству; повышение квалификации преподавателей внутрифирменного обучения и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Промышленная безопасность и охрана труда</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Обучение по охране труда; предаттестационная подготовка по промышленной и энергетической безопасности; законодательные и нормативные акты; обучение ответственных по направлениям; безопасные методы и приемы выполнения работ на высоте; учет прекурсоров наркотических и психотропных средств и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Экология</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Обращение с опасными отходами I-IV класса опасности; обеспечение экологической безопасности; радиационная безопасность; хроматография и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Энергетика</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Энергосбережение и энергоэффективность; эксплуатация тепловых энергоустановок и электроустановок потребителей; обучение специалистов электролабораторий по испытаниям и измерениям; частотно-регулируемый привод; обслуживание взрывозащищенного оборудования; повышение квалификации в области энергетики и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Автоматизация и информационное обеспечение</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Автоматизация технологических процессов и производств; телекоммуникационные технологии и связь; системное администрирование (автоматизированные курсы, техническая поддержка); освоение программных продуктов; обслуживание и ремонт устройств (принтеров, ксероксов и др.); сетевые технологии; информационная безопасность и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Метрология</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Поверка и калибровка средств измерений; метрологическое обеспечение производства и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Механика и технология</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Техническое диагностирование оборудования; неразрушающие и разрушающие методы контроля; подготовка и аттестация специалистов сварочного производства; эксплуатация и ремонт оборудования; новые виды оборудования; современные технологии и материалы и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Железнодорожное направление</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Перевозка опасных грузов железнодорожным транспортом; обеспечение безопасности движения на промышленном ж/д транспорте; организация погрузо-разгрузочной деятельности; эксплуатация железных дорог; право производства контроля, ремонта и приемки вагонов при плановых видах ремонта; подготовка должностных лиц объектов транспортной инфраструктуры и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Транспортная безопасность</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Транспортное обеспечение; безопасность дорожного движения на автомобильном транспорте и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Менеджмент и управление персоналом</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Обучение кадрового резерва; менеджмент; HR-технологии; психология труда; переподготовка по программе «Специалист по управлению персоналом» и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="title">Экономика</div>
+
+								<div class="info">
+									<div class="desc text_block">
+										<p>Бухгалтерский учет и налогообложение организаций; финансовый менеджмент; оплата труда, сметное дело и др.</p>
+									</div>
+
+									<button class="btn">Заполнить заявку</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Новости</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>История</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a href="/">История учебного центра</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>Деятельность</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Награды и достижения</a></div>
+								<div><a href="/">Документы</a></div>
+								<div><a href="/">Публикации</a></div>
+								<div><a href="/">Фотогалерея</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Контакты</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Я выбираю ПАО «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="copyright">
+						&copy; 2013 - 2021 ПАО «Нижнекамскнефтехим». Все права защищены. – Уведомление об ответственности и праве интеллектуальной собственности.
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

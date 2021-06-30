@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#006CAB">
+		<meta name="theme-color" content="#006CAB">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1227.css" media="print, (max-width: 1227px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="inner">
+					<div class="cont row">
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="menu_wrap">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="item">
+									<a href="/">История</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Деятельность</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Контакты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Подать заявку на оказание услуг</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">Rus</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="mob_header inner">
+					<div class="cont">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_menu">
+					<button class="close"></button>
+
+					<div class="scroll">
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">Rus</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Новости</a>
+							</div>
+
+							<div class="item">
+								<a href="/">История</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Деятельность</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Контакты</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+							<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+							<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+							<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+							<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Новости</span>
+						</div>
+
+						<h1 class="page_title">Новости</h1>
+					</div>
+				</section>
+
+
+				<section class="articles block">
+					<div class="cont">
+						<div class="row">
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Производство</div>
+
+									<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">29 апреля 2021</div>
+
+								<div class="name">Изучить оборудование, чтобы завтра применять его на производстве</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Экология</div>
+
+									<img data-src="images/tmp/article_thumb2.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">27 апреля 2021</div>
+
+								<div class="name">Студенты постигают теорию, чтобы выполнить кейсы ПАО «Нижнекамскнефтехим»</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Продукция</div>
+
+									<img data-src="images/tmp/article_thumb3.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">27 апреля 2021</div>
+
+								<div class="name">Студенчеству о ПАО «Нижнекамскнефтехим»</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Производство</div>
+
+									<img data-src="images/tmp/article_thumb4.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">23 апреля 2021</div>
+
+								<div class="name">Первый «Кейс-Challenge» от ПАО «Нижнекамскнефтехим»</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Экология</div>
+
+									<img data-src="images/tmp/article_thumb5.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">12 апреля 2021</div>
+
+								<div class="name">ПАО «Нижнекамскнефтехим» участвует в новом проекте для студентов</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Продукция</div>
+
+									<img data-src="images/tmp/article_thumb6.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">26 марта 2021</div>
+
+								<div class="name">Пилотный проект аттестации работников по техническим условиям крепления грузов в вагонах и контейнерах</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Экология</div>
+
+									<img data-src="images/tmp/article_thumb7.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">25 марта 2021</div>
+
+								<div class="name">Новый курс для уполномоченных по охране труда</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Производство</div>
+
+									<img data-src="images/tmp/article_thumb8.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">23 марта 2021</div>
+
+								<div class="name">Конкурс профмастерства – это тоже экзамен!</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<div class="category">Продукция</div>
+
+									<img data-src="images/tmp/article_thumb9.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="date">21 марта 2021</div>
+
+								<div class="name">Ответный визит</div>
+
+								<div class="btn">Подробнее</div>
+							</a>
+						</div>
+
+
+						<div class="pagination center">
+							<a href="/" class="start">Начало</a>
+							<a href="/" class="prev">
+								<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</a>
+
+							<a class="active">1</a>
+							<a href="/">2</a>
+							<a href="/">3</a>
+							<a href="/">4</a>
+							<a href="/">5</a>
+							<div class="sep">...</div>
+							<a href="/">25</a>
+							<a href="/">26</a>
+
+							<a href="/" class="next">
+								<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</a>
+							<a href="/" class="finish">Конец</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Новости</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>История</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a href="/">История учебного центра</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>Деятельность</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Награды и достижения</a></div>
+								<div><a href="/">Документы</a></div>
+								<div><a href="/">Публикации</a></div>
+								<div><a href="/">Фотогалерея</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Контакты</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Я выбираю ПАО «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="copyright">
+						&copy; 2013 - 2021 ПАО «Нижнекамскнефтехим». Все права защищены. – Уведомление об ответственности и праве интеллектуальной собственности.
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

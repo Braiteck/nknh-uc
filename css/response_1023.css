@@ -1,0 +1,398 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .border_top
+    {
+        margin-top: 60px;
+        padding-top: 24px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: -69px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+    header
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+    .page_head .mob_links,
+    .page_head .mob_select
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) + 4px);
+    }
+
+    .block_head .title.small
+    {
+        line-height: calc(var(--font_size_title_small) + 6px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block img,
+    .text_block .images
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block .images .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .text_block .images .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 32px;
+        column-count: 2;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 450px;
+    }
+
+
+    .first_section .info
+    {
+        width: 556px;
+    }
+
+    .first_section .pre_title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .first_section .title
+    {
+        font-size: 40px;
+    }
+
+    .first_section .desc
+    {
+        line-height: 22px;
+
+        margin-top: 32px;
+        padding-left: 23px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .grid
+    {
+        grid-gap: 14px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles .grid > *.big
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+
+
+
+    .articles .article .info
+    {
+        padding: 20px 24px;
+    }
+
+    .articles .article .info .name
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+
+    .articles .row
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+    .articles .row .article .name
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .item .info
+    {
+        opacity: 1;
+    }
+
+    .gallery .item .category
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .gallery .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .gallery .item .zoom
+    {
+        transform: scale(.8);
+    }
+
+
+
+    /*------------
+        Choose
+    ------------*/
+    .choose .case .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .choose .case .images
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .choose .case .images > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .choose .webinars
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .file .name
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contacts_info .data .order_btn
+    {
+        margin-top: 24px;
+        padding: 14px 32px;
+    }
+
+
+    .contacts_info .info
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .item + .item
+    {
+        margin-top: 32px;
+    }
+
+
+    .history .item .year
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 8px;
+    }
+
+
+
+    /*----------------
+        Send order
+    ----------------*/
+    .send_order .list
+    {
+        margin-top: 40px;
+    }
+
+
+    .send_order .item
+    {
+        padding: 24px;
+    }
+
+    .send_order .item .title
+    {
+        line-height: 22px;
+
+        width: 252px;
+    }
+
+    .send_order .item .info
+    {
+        width: calc(100% - 292px);
+        padding-left: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col_left
+    {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 40px;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    footer .socials
+    {
+        margin-top: 0;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 40px;
+        padding: 24px 0;
+    }
+}

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#006CAB">
+		<meta name="theme-color" content="#006CAB">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1227.css" media="print, (max-width: 1227px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="inner">
+					<div class="cont row">
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="menu_wrap">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="item">
+									<a class="active">История</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Деятельность</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Контакты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Подать заявку на оказание услуг</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">Rus</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="mob_header inner">
+					<div class="cont">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_menu">
+					<button class="close"></button>
+
+					<div class="scroll">
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">Rus</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Новости</a>
+							</div>
+
+							<div class="item">
+								<a href="/">История</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Деятельность</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Контакты</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+							<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+							<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+							<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+							<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="content_flex block">
+					<div class="cont row">
+						<aside>
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a class="active">История учебного центра</a></div>
+							</div>
+						</aside>
+
+
+						<section class="content">
+							<div class="page_head">
+								<div class="breadcrumbs">
+									<a href="/">Главная</a> <span class="sep">/</span>
+									<a href="/">История</a> <span class="sep">/</span>
+									<span class="current">История учебного центра</span>
+								</div>
+
+								<h1 class="page_title">История учебного центра</h1>
+
+								<div class="mob_links">
+									<div><a href="/">История</a></div>
+									<div><a class="active">История учебного центра</a></div>
+								</div>
+							</div>
+
+							<div class="text_block">
+								<p class="big">История всегда начинается с талантливых людей. Это они создают все то новое и прекрасное, которое затем становится привычным. Преодолевая трудности и упорно стремясь к цели, они двигаются вперед. А те принципы, которые лежат в основе их деятельности становятся формулой успеха коллектива в будущем.</p>
+
+								<h2>Как все начиналось...</h2>
+
+								<img src="images/tmp/history_text_img.jpg" alt="" class="left">
+
+								<p>Осенью 1964 года в штате химкомбината появилась новая должность – инженер по подготовке кадров. В течение трех лет с начала строительства на предприятие было трудоустроено 99 человек, в связи, с чем возникла необходимость в подготовке и повышении квалификации кадров. C 1964 по 1966 годы на химкомбинате работал лишь один инженер по подготовке кадров - Юрий Владимирович Новик. Молодой специалист, он с энтузиазмом взялся за дело. Эти вопросы находились в ведении технического отдела  под руководством Леонида Яковлевича Перлина. Готовили специалистов для трех функционирующих участков: РМЦ, базы оборудования, депо передвижного оборудования.</p>
+								<div class="clear"></div>
+
+								<p>Обучение проводилось силами специалистов комбината: Тихонова В.Ф., Мангушева Ф.А., Гильмутдинова З.Н., Набиуллина Н.С., в вагончиках и строящихся цехах. Подготовкой лаборантов занималась Орешкина Ксения Федоровна непосредственно в насосной питьевого и пожарного водоснабжения. Тяжелым было и неустройство в вагончиках, и отсутствие специальной литературы. Чтобы лучше разобраться в новом, незнакомом деле, Юрий Владимирович был направлен на курсы повышения квалификации в г. Москву. В течение 1966 года ЦГФУ, ЦЗД, склады, цехи азота, водо- и теплоснабжения, КИПиА и другие пусковые объекты были укомплектованы квалифицированными кадрами. Численность работников химкомбината возросла с 751 до 2131 человека. Почти весь персонал был обучен, прошел стажировку и был допущен квалификационной комиссией к самостоятельной работе. Химкомбинат дал первое направление на учебу в Казанский химико-технологический институт. Первым его стипендиатом стал Шамсутдинов Валерий Гарафович.</p>
+
+								<img src="images/tmp/history_text_img2.jpg" alt="" class="left">
+
+								<p>В декабре 1966 года руководством химкомбината было принято решение о создании отдела подготовки кадров, начальником которого назначается Василий Иванович  Игнатьев. Отдел в составе трех человек разместился в здании цеха КИПиА и работал под руководством помощника директора по кадрам и быту Петра Ивановича Ачаева   и  главного инженера Семена Моисеевича Каменщика.</p>
+
+								<p>Василия Ивановича лично позвал на химию Николай Васильевич Лемаев. «Ты педагог, сумеешь» - сказал он. И Василий Иванович смело взялся за дело. Было нелегко, приходилось оставаться и после окончания рабочего дня.</p>
+								<div class="clear"></div>
+
+								<p>У Лемаева была удивительная черта руководителя, подход к кадрам, способность знать и изучать их по деловым качествам, отношению к своим обязанностям. Частенько он заходил в кабинет Василия Ивановича Игнатьева, спрашивал, интересовался, как продвигается новое дело. Давал задания, связанные с работой Нефтехимического колледжа и училища № 44.</p>
+
+								<p>Николай Васильевич Лемаев, заметив организаторские способности, талант и деловую хватку В.И. Игнатьева, предложил ему  возглавить ГПТУ-44, которое стало кузницей кадров предприятия  и считалось цехом №1. Долгие годы, занимаясь подготовкой кадров для химкомбината, Василий Иванович постоянно чувствовал поддержку со стороны родного предприятия и неоценимую помощь. Учитывая большие заслуги в деле создания условий для подготовки молодой смены рабочего класса, Николай Васильевич был награжден значком «Отличник ПТО РСФСР», ему присвоено звание «Заслуженный учитель ПТО РСФСР», «Почетный гражданин города». Химики отметили его заслуги званием «Ветеран Нижнекамскнефтехим».</p>
+
+								<img src="images/tmp/history_text_img3.jpg" alt="">
+
+								<p>Вот как вспоминает годы своей деятельности  бывший начальник отдела подготовки кадров (в 1967-1974 и 1976-1979 годах) Римма Ильясовна Спектрова: «Отдел поддерживал связь с более чем с тридцатью вузами, училищами, нефтехимическим техникумом. Необходимо было обучать специалистов для новых производств, поскольку в год пускали по 2-3 завода. По  каждой специальности требовалось  готовить программы, организовывать курсы, договариваться о стажировке на однопрофильных предприятиях, принимать экзамены. Большая работа проводилась с молодыми специалистами. Их направляли сначала на стажировку, затем они сдавали серьезный экзамен на знание своего участка. Обучаться за рубеж не отправляли,  наоборот, к нам приезжали учиться группы специалистов из Польши, Чехословакии и Румынии на заводы «Этилен – 450» и «Этиленопроводов». Ближайшими её помощниками и соратницами были: Л. Жигач, Л. Скороходова, З. Орехова, Т. Алдонова и А. Шупикова.</p>
+
+								<img src="images/tmp/history_text_img4.jpg" alt="">
+
+								<p>В течение двух лет отдел по подготовке кадров возглавляла Э. Петрашова. В этот период коллектив отдела был награжден дипломом Государственного комитета совета Министров СССР по профессионально-техническому образованию за достижение высоких результатов во всесоюзном общественном смотре подготовки и повышения квалификации молодых рабочих на производстве.</p>
+
+								<img src="images/tmp/history_text_img5.jpg" alt="" class="left">
+
+								<p>С 1980 по 1997 год руководителем отдела технического обучения была Надежда Степановна Долганова - человек большой души, находящийся в непрестанном творческом поиске. Под ее руководством внедрялись новые методы, формы обучения, развивалось наставничество, деловые игры, внедрялись конкурсы лучшего по профессии и многое другое. Вначале 80-х в рамках отдела технического обучения была создана учебно-производственная база в здании ИП 15/1 с пятью специализированными кабинетами: по профессиям (аппаратчик химических производств, машинист технических установок, электрослесарь  КИПиА, электромонтер), кабинет по грузоподъемным механизмам  и методический кабинет.</p>
+								<div class="clear"></div>
+
+								<p>В 1982 году отдел технического обучения стал лидером в смотре-конкурсе по подготовке и повышению квалификации  работников среди 465 предприятий Министерства нефтехимической промышленности.</p>
+
+								<img src="images/tmp/history_text_img6.jpg" alt="" class="left">
+
+								<p>Назначение руководителем службы подготовки кадров Анатолия Михайловича Николаева совпало с периодом возросших требований к подготовке и аттестации персонала со стороны Ростехнадзора, лицензирования подготовки кадров. Для курсового обучения рабочих основных нефтехимических профессий, руководством акционерного общества принято решение создания на базе отдела подготовки кадров учебно-курсового комбината. С 1997 года  обучение рабочих, обслуживающих опасные производственные объекты, повышение квалификации руководителей и специалистов, организация производственной практики студентов и учащихся базовых учебных заведений осуществляется в <span>Учебном центре по подготовке персонала</span>.</p>
+								<div class="clear"></div>
+							</div>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Новости</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>История</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a href="/">История учебного центра</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>Деятельность</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Награды и достижения</a></div>
+								<div><a href="/">Документы</a></div>
+								<div><a href="/">Публикации</a></div>
+								<div><a href="/">Фотогалерея</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Контакты</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Я выбираю ПАО «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="copyright">
+						&copy; 2013 - 2021 ПАО «Нижнекамскнефтехим». Все права защищены. – Уведомление об ответственности и праве интеллектуальной собственности.
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

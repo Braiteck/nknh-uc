@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#006CAB">
+		<meta name="theme-color" content="#006CAB">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1227.css" media="print, (max-width: 1227px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="inner">
+					<div class="cont row">
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="menu_wrap">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="item">
+									<a href="/">История</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Деятельность</a>
+								</div>
+
+								<div class="item">
+									<a class="active">Контакты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Подать заявку на оказание услуг</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">Rus</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="mob_header inner">
+					<div class="cont">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_menu">
+					<button class="close"></button>
+
+					<div class="scroll">
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">Rus</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Новости</a>
+							</div>
+
+							<div class="item">
+								<a href="/">История</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Деятельность</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Контакты</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+							<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+							<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+							<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+							<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="contacts_info block">
+					<div class="cont row">
+						<div class="data">
+							<div class="page_head">
+								<div class="breadcrumbs">
+									<a href="/">Главная</a> <span class="sep">/</span>
+									<span class="current">Контакты</span>
+								</div>
+
+								<h1 class="page_title">Контакты</h1>
+							</div>
+
+							<div class="text_block">
+								<p>Учебный центр по подготовке персонала ПАО «Нижнекамскнефтехим» не оказывает образовательные услуги другим компаниям. В свою очередь, рассматривает коммерческие предложения образовательных организаций РФ и РТ на обучение работников компании по различным направлениям, в том числе подконтрольным Ростехнадзору и другим подведомственным службам. Коммерческие предложения на оказание образовательных услуг по направлениям, запланированным на 2019-2020 год, Вы можете разместить в разделе «Подать заявку на оказание услуг», а также направить по электронной почте <a href="mailto:uc@nknh.ru">uc@nknh.ru</a>.</p>
+							</div>
+
+							<button class="order_btn">Подать заявку на оказания услуг</button>
+						</div>
+
+						<div class="info">
+							<div class="item">
+								<div class="name">Директор учебного центра:</div>
+
+								<div class="val">
+									Бочкарев Алексей Викторович, тел. <a href="tel:8555377012">(8555) 37-70-12</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Инженеры по подготовке кадров:</div>
+
+								<div class="val">
+									<a href="tel:8555377412">(8555) 37-74-12</a>, <a href="tel:375404">37-54-04</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Экономист по договорной работе:</div>
+
+								<div class="val">
+									<a href="tel:8555375498">(8555) 37-54-98</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Факс:</div>
+
+								<div class="val">
+									<a href="fax:8555377412">(8555) 377412</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">E-mail:</div>
+
+								<div class="val">
+									<a href="mailto:uc@nknh.ru">uc@nknh.ru</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Режим работы:</div>
+
+								<div class="val">Пятидневная рабочая неделя. Рабочий день сотрудников - с 8.00 до 17.00. Начало занятий - 8.00. Продолжительность одного занятия - 45 мин (один академ. час).</div>
+							</div>
+						</div>
+
+
+						<div class="structure border_top tabs_container">
+							<div class="block_head">
+								<div class="title small">Структура учебного центра</div>
+							</div>
+
+							<div class="tabs">
+								<button data-content="#structure_tab1" data-level="level1" class="active">Руководители</button>
+								<button data-content="#structure_tab2" data-level="level1">Сотрудники</button>
+							</div>
+
+
+							<div class="tab_content level1 active" id="structure_tab1">
+								<div class="persons">
+									<div class="row">
+										<div class="person">
+											<div class="photo">
+												<img data-src="images/tmp/person_photo.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="name">Бочкарев Алексей Викторович</div>
+											<div class="post">Директор учебного центра по подготовке персонала</div>
+
+											<div class="contacts">
+												<div class="phone">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+													<a href="tel:8555377012">(8555) 37-70-12</a>
+												</div>
+
+												<div class="email">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+													<a href="mailto:BochkarevAV@nknh.ru">BochkarevAV@nknh.ru</a>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="person">
+											<div class="photo">
+												<img data-src="images/tmp/person_photo2.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="name">Насыбуллина Елена Фаритовна</div>
+											<div class="post">Заместитель директора учебного центра</div>
+
+											<div class="contacts">
+												<div class="phone">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+													<a href="tel:8555377012">8555377012</a>
+												</div>
+
+												<div class="email">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+													<a href="mailto:BochkarevAV@nknh.ru">BochkarevAV@nknh.ru</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="tab_content level1" id="structure_tab2">
+								<div class="persons">
+									<div class="row">
+										<div class="person">
+											<div class="photo">
+												<img data-src="images/tmp/person_photo.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="name">Бочкарев Алексей Викторович</div>
+											<div class="post">Директор учебного центра по подготовке персонала</div>
+
+											<div class="contacts">
+												<div class="phone">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+													<a href="tel:8555377012">(8555) 37-70-12</a>
+												</div>
+
+												<div class="email">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+													<a href="mailto:BochkarevAV@nknh.ru">BochkarevAV@nknh.ru</a>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="person">
+											<div class="photo">
+												<img data-src="images/tmp/person_photo2.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="name">Насыбуллина Елена Фаритовна</div>
+											<div class="post">Заместитель директора учебного центра</div>
+
+											<div class="contacts">
+												<div class="phone">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+													<a href="tel:8555377012">8555377012</a>
+												</div>
+
+												<div class="email">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+
+													<a href="mailto:BochkarevAV@nknh.ru">BochkarevAV@nknh.ru</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="requisites">
+							<div class="block_head">
+								<div class="title small">Реквизиты</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Полное наименование:</div>
+
+								<div class="val">Публичное акционерное общество «Нижнекамскнефтехим»</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Сокращенное наименование:</div>
+
+								<div class="val">ПАО «Нижнекамскнефтехим»</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Юридический адрес:</div>
+
+								<div class="val">Российская Федерация, Республика Татарстан, г. Нижнекамск</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Адрес:</div>
+
+								<div class="val">423574, Республика Татарстан, Нижнекамский район, город Нижнекамск, улица Соболековская, здание 23, офис 129</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Почтовый адрес:</div>
+
+								<div class="val">ул. Соболековская, здание 23, г. Нижнекамск, Нижнекамский  муниципальный район, Республика Татарстан, Российская Федерация, 423574</div>
+							</div>
+
+							<div class="item">
+								<div class="name">ИНН</div>
+
+								<div class="val">1651000010</div>
+							</div>
+
+							<div class="item">
+								<div class="name">КПП</div>
+
+								<div class="val">997550001</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Банковские реквизиты:</div>
+
+								<div class="val">
+									ООО Банк "Аверс", г. Казань<br>
+									Р/с 40702810600690000014<br>
+									БИК049205774<br>
+									к/с 30101810500000000774<br>
+									ОКПО 05766801
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="val full_w">Договор подписывает заместитель генерального директора по персоналу и социальным вопросам Булашов Родион Александрович,  действующий на  основании доверенности  №560-Дов от 29.12.2020</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Новости</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>История</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a href="/">История учебного центра</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>Деятельность</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Награды и достижения</a></div>
+								<div><a href="/">Документы</a></div>
+								<div><a href="/">Публикации</a></div>
+								<div><a href="/">Фотогалерея</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Контакты</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Я выбираю ПАО «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="copyright">
+						&copy; 2013 - 2021 ПАО «Нижнекамскнефтехим». Все права защищены. – Уведомление об ответственности и праве интеллектуальной собственности.
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

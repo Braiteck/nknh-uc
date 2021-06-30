@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#006CAB">
+		<meta name="theme-color" content="#006CAB">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1227.css" media="print, (max-width: 1227px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="inner">
+					<div class="cont row">
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="menu_wrap">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Новости</a>
+								</div>
+
+								<div class="item">
+									<a href="/">История</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Деятельность</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Контакты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Подать заявку на оказание услуг</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">Rus</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+						<div class="sep"></div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="mob_header inner">
+					<div class="cont">
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<a href="/" class="taif_logo">
+							<img src="images/taif_logo.svg" alt="">
+						</a>
+
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по сайту...">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="mob_menu">
+					<button class="close"></button>
+
+					<div class="scroll">
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_langs_modal">Rus</button>
+
+							<div class="mini_modal" id="mob_langs_modal">
+								<div><button class="active">Rus</button></div>
+								<div><button>Eng</button></div>
+							</div>
+						</div>
+
+
+						<div class="menu">
+							<div class="item">
+								<a href="/">Новости</a>
+							</div>
+
+							<div class="item">
+								<a href="/">История</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Деятельность</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Контакты</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+
+							<div class="item">
+								<a href="/">Я выбираю Пао «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+							<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+							<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+							<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+							<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+						</a>
+					</div>
+				</section>
+
+
+				<section class="article_info block">
+					<div class="cont">
+						<section class="data">
+							<section class="page_head">
+								<div class="breadcrumbs">
+									<a href="/">Главная</a> <span class="sep">/</span>
+									<a href="/">Новости</a> <span class="sep">/</span>
+									<span class="current">Студенты постигают теорию, чтобы выполнить кейсы ПАО «Нижнекамскнефтехим»</span>
+								</div>
+
+								<h1 class="page_title">Студенты постигают теорию, чтобы выполнить кейсы ПАО «Нижнекамскнефтехим»</h1>
+							</section>
+
+
+							<section class="head_info">
+								<div class="date">18 марта 2021</div>
+
+								<div class="sep"></div>
+
+								<div class="category">Пресс-служба ПАО «Нижнекамскнефтехим»</div>
+							</section>
+
+							<section class="text_block">
+								<img src="images/tmp/article_info_img.jpg" alt="">
+
+								<p>ПАО «Нижнекамскнефтехим» поддержало проект  АНО «Кванториум» г. Набережные Челны «PROFДвижение», созданный при поддержке Министерства промышленности и торговли РТ и  Министерства цифрового развития государственного управления, информационных технологий и связи Республики Татарстан.</p>
+
+								<p>В рамках проекта с 19.04.2021 по 21.04.2021 для студентов профильных образовательных учреждений нашего предприятия организован семинар для пополнения теоретических знаний и возможности приступить к решению кейсов, предоставленных на проект специалистами Департамента информационных технологий ПАО «Нижнекамскнефтехим». Для доставки студентов в Кванториум предприятие выделило автобус. По мнению слушателей семинара полученная информация очень ценная и пригодится не только для работы в проекте, но и для дальнейшей учебы и трудовой деятельности по выбранной специальности в области цифровых технологий.</p>
+
+								<div class="images">
+									<div class="row">
+										<a href="images/tmp/text_image_thumb.jpg" class="item fancy_img" data-fancybox="gallery1">
+											<div><img data-src="images/tmp/text_image_thumb.jpg" alt="" class="lozad"></div>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+										</a>
+
+										<a href="images/tmp/text_image_thumb2.jpg" class="item fancy_img" data-fancybox="gallery1">
+											<div><img data-src="images/tmp/text_image_thumb2.jpg" alt="" class="lozad"></div>
+
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+										</a>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="comments border_top">
+								<div class="block_head min_margin">
+									<div class="title small">Комментарии (5)</div>
+								</div>
+
+								<div class="list">
+									<div class="comment">
+										<div class="data">
+											<div class="head">
+												<div class="author">Александр Казанин</div>
+												<div class="sep">-</div>
+												<div class="date">14 апреля 2021 в 15:45</div>
+											</div>
+
+											<div class="text_block">
+												<p>Товарищи! дальнейшее развитие различных форм деятельности требуют от нас анализа системы обучения кадров, соответствует насущным потребностям.</p>
+											</div>
+
+											<div class="bottom">
+												<button class="reaply_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_reaply"></use></svg>
+													<span>Ответить</span>
+												</button>
+											</div>
+
+											<div class="add_answer">
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<textarea name="" placeholder="Текст комментария..."></textarea>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input" placeholder="Имя*">
+														</div>
+													</div>
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+
+										<div class="answers">
+											<div class="comment">
+												<div class="data">
+													<div class="head">
+														<div class="author">Алексей</div>
+														<div class="sep">-</div>
+														<div class="date">14 апреля 2021 в 19:17</div>
+													</div>
+
+													<div class="text_block">
+														<p>Развитие различных форм деятельности требуют от нас анализа системы обучения кадров</p>
+													</div>
+
+													<div class="bottom">
+														<button class="reaply_btn">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_reaply"></use></svg>
+															<span>Ответить</span>
+														</button>
+													</div>
+
+													<div class="add_answer">
+														<form action="" class="form">
+															<div class="line">
+																<div class="field">
+																	<textarea name="" placeholder="Текст комментария..."></textarea>
+																</div>
+															</div>
+
+															<div class="line">
+																<div class="field">
+																	<input type="text" name="" value="" class="input" placeholder="Имя*">
+																</div>
+															</div>
+
+															<div class="submit">
+																<button type="submit" class="submit_btn">Отправить</button>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="comment">
+										<div class="data">
+											<div class="head">
+												<div class="author">Елена С.</div>
+												<div class="sep">-</div>
+												<div class="date">10 апреля 2021 в 12:53</div>
+											</div>
+
+											<div class="text_block">
+												<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют от нас анализа новых предложений. Товарищи! начало повседневной работы по формированию позиции влечет за собой процесс внедрения</p>
+											</div>
+
+											<div class="bottom">
+												<button class="reaply_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_reaply"></use></svg>
+													<span>Ответить</span>
+												</button>
+											</div>
+
+											<div class="add_answer">
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<textarea name="" placeholder="Текст комментария..."></textarea>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input" placeholder="Имя*">
+														</div>
+													</div>
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+
+									<div class="comment">
+										<div class="data">
+											<div class="head">
+												<div class="author">Николай</div>
+												<div class="sep">-</div>
+												<div class="date">08 апреля 2021 в 09:18</div>
+											</div>
+
+											<div class="text_block">
+												<p>Равным образом дальнейшее развитие различных форм деятельности позволяет выполнять важные задания по разработке модели развития.</p>
+											</div>
+
+											<div class="bottom">
+												<button class="reaply_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_reaply"></use></svg>
+													<span>Ответить</span>
+												</button>
+											</div>
+
+											<div class="add_answer">
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<textarea name="" placeholder="Текст комментария..."></textarea>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input" placeholder="Имя*">
+														</div>
+													</div>
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+
+									<div class="comment">
+										<div class="data">
+											<div class="head">
+												<div class="author">Valentin</div>
+												<div class="sep">-</div>
+												<div class="date">07 апреля 2021 в 18:11</div>
+											</div>
+
+											<div class="text_block">
+												<p>Разнообразный и богатый опыт сложившаяся структура организации в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям.</p>
+											</div>
+
+											<div class="bottom">
+												<button class="reaply_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_reaply"></use></svg>
+													<span>Ответить</span>
+												</button>
+											</div>
+
+											<div class="add_answer">
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<textarea name="" placeholder="Текст комментария..."></textarea>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input" placeholder="Имя*">
+														</div>
+													</div>
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="add_comment">
+									<div class="block_head min_margin">
+										<div class="title small">Ваш комментарий</div>
+									</div>
+
+									<form action="" class="form">
+										<div class="line">
+											<div class="field">
+												<textarea name="" placeholder="Текст комментария..."></textarea>
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Имя*">
+											</div>
+										</div>
+
+										<div class="submit">
+											<button type="submit" class="submit_btn">Отправить</button>
+										</div>
+									</form>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Новости</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>История</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">История</a></div>
+								<div><a href="/">История учебного центра</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title mob_spoler">
+								<span>Деятельность</span>
+							</div>
+
+							<div class="links">
+								<div><a href="/">Награды и достижения</a></div>
+								<div><a href="/">Документы</a></div>
+								<div><a href="/">Публикации</a></div>
+								<div><a href="/">Фотогалерея</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="item">
+							<div class="title">
+								<a href="/">Контакты</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Подать заявку на оказание услуг</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="title">
+								<a href="/">Я выбираю ПАО «Нижнекамскнефтхим»</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="copyright">
+						&copy; 2013 - 2021 ПАО «Нижнекамскнефтехим». Все права защищены. – Уведомление об ответственности и праве интеллектуальной собственности.
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
